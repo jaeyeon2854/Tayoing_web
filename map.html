@@ -15,16 +15,26 @@
             </div>
         </div>
     </nav>
-	<div id="map" style="width:500px;height:400px;"></div>
-	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a3167f4545e40184ac290edec0bddcb5"></script>
-	<script>
-		var container = document.getElementById('map');
-		var options = {
-			center: new kakao.maps.LatLng(36.5040736, 127.2494855),
-			level: 3
-		};
+	<div class="container" id="maincontent" tabindex="-1">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="intro-text">
+					<h1 class="name">TAYOING</h1>
+					<hr class="star-light">
+					<div id="map" style="width:500px;height:400px;"></div>
+					<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a3167f4545e40184ac290edec0bddcb5"></script>
+					<script>
+					var container = document.getElementById('map');
+					var options = {
+					center: new kakao.maps.LatLng(36.5040736, 127.2494855),
+					level: 3
+					};
 
-		var map = new kakao.maps.Map(container, options);
-	</script>
+					var map = new kakao.maps.Map(container, options);
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
