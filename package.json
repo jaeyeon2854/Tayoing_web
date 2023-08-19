@@ -1,7 +1,7 @@
 {
-  "name": "freelancer",
-  "title": "Freelancer",
-  "version": "3.3.7+1",
+  "name": "jaeyeon",
+  "title": "jaeyeon",
+  "version": "3.3.7",
   "homepage": "http://startbootstrap.com/template-overviews/freelancer",
   "author": "Start Bootstrap",
   "license": {
@@ -23,6 +23,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
-  }
+    "url": "git+https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer/issues"
+  },
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "description": ""
 }
