@@ -57,9 +57,7 @@
                     <li class="page-scroll">
                         <a href="#about">About</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -98,9 +96,9 @@
                     <div class="col-lg-12 text-center">
                         <select name="departureLocation" id="departureLocation" class="form-control">
                             <option value="0" selected>출발지를 입력해주세요</option>
-                            <option value="1">고대 세종</option>
-                            <option value="2">조치원역</option>
-                            <option value="3">세종시청</option>
+                            <option value="1">국립세종도서관</option>
+                            <option value="2">산업부 앞</option>
+                            <option value="3">국토부 후문</option>
                         </select>
                     </div>
                     <div class="col-lg-12 text-center">
@@ -109,19 +107,34 @@
                     <div class="col-lg-12 text-center">
                         <select name="arrivalLocation" id="arrivalLocation" class="form-control">
                             <option value="0" selected>도착지를 입력해주세요</option>
-                            <option value="1">고대 세종</option>
-                            <option value="2">조치원역</option>
-                            <option value="3">세종시청</option>
+                            <option value="1">국립세종도서관</option>
+                            <option value="2">산업부 앞</option>
+                            <option value="3">국토부 후문</option>
                         </select>
                     </div>
                     <div class="col-lg-12 text-center" style="margin-top: 50px; margin-bottom: 20px;">
-                        <button onclick="location.href='map.html'" class="btn btn-primary btn-lg btn-block">                
+                        <button onclick="location.href='map_root.html'" class="btn btn-primary btn-lg btn-block">                
                             확인
                         </button>
                     </div>
             </div>
         </div>
     </section>
+
+        <!-- Portfolio Grid Section -->
+        <section id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Tayoing 경로</h2>
+                        <hr class="star-primary">
+                    </div>
+                </div>
+                <div style="text-align : center;">
+                <img src="./img/경로.png" width="700" height="500">
+                </div>
+            </div>
+        </section>
     
 
     <!-- About Section -->
@@ -136,8 +149,13 @@
             <div class="row">
                 <div class="col-lg text-center">
                     <p> 
-                        세종시 자율주행 버스 타요잉은 어쩌구 저쩌구 강화학습을 이용해 경로를 최적화한 모델 어쩌구
-                        데이터 청년 캠퍼스 최강 5조..어쩌구저쩌구
+                        자율주행차 시범운행기구로 지정된 세종시에서 자율주행 순환 셔틀버스는 국토교통부 - 정부세종컨벤션센터 - 국립세종도서관 - 산업통상자원부를 순환하는 수요응답형 자율주행 셔틀버스로, 간선 급행 교통체계(BRT)와 연계해 정부세종청사, 국립세종도서관까지의 교통수요를 담당하는 라스트마일(최종 목적지까지 가는 마지막 구간) 서비스를 제공하게 된다. 이에 자율주행차량의 승객을 안전하게 목적지까지 운송해야 하므로 사고위험지역을 회피하여 운행될 필요성이 제기되었다. 본 분석모델 Tayoing은 강화학습기반의 사고위험지역을 회피하는 수요응답형 자율주행차량 경로 최적화를 위한 모델이다.
+                    </p>
+                    <p>
+                        - 수요응답형 자율주행 셔틀버스 Tayoing은 최적의 경로로 출발지로부터 목적지까지 운행하여 승객의 니즈를 충족시키고자 한다. 
+                    </p>
+                    <p>
+                        - 자율주행의 경우 사고에 대한 책임이 민감하므로 교통사고 위험지역으로 예상되는 경로를 회피한 자율주행의 필요성을 충족시키고자 한다.
                     </p>
                 </div>
             </div>
@@ -149,30 +167,10 @@
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-5">
+                    <div class="footer-col col-md">
                         <h3>People With</h3>
                         <p>
                             <br> Lee Jae Yeon , Bang Hyun Sung , Lee Sang Ha </p>
-                    </div>
-                    <div class="footer-col col-md-7">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Google Plus</span><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Dribble</span><i class="fa fa-fw fa-dribbble"></i></a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
