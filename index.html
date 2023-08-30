@@ -80,60 +80,20 @@
         </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row justify-content-center"> <!-- Add 'justify-content-center' class to center content -->
-                <div class="col-lg-12 text-center">
-                    <h2>출발지와 도착지를 알려주세요.</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row justify-content-center"> <!-- Add 'justify-content-center' class to center content -->
-                    <div class="col-lg-12 text-center">
-                        <h3>출발지</h3>
-                    </div>
-                    <div class="col-lg-12 text-center">
-                        <select name="departureLocation" id="departureLocation" class="form-control">
-                            <option value="0" selected>출발지를 입력해주세요</option>
-                            <option value="1">국립세종도서관</option>
-                            <option value="2">산업통상자원부</option>
-                            <option value="3">국토교통부</option>
-                            <option value="4">정부세종컨벤션센터</option>
-                        </select>
-                    </div>
-                    <div class="col-lg-12 text-center">
-                        <h3>도착지</h3>
-                    </div>
-                    <div class="col-lg-12 text-center">
-                        <select name="arrivalLocation" id="arrivalLocation" class="form-control">
-                            <option value="0" selected>도착지를 입력해주세요</option>
-                            <option value="1">국립세종도서관</option>
-                            <option value="2">산업통상자원부</option>
-                            <option value="3">국토교통부</option>
-                            <option value="4">정부세종컨벤션센터</option>
-                        </select>
-                    </div>
-                    <div class="col-lg-12 text-center" style="margin-top: 50px; margin-bottom: 20px;">
-                        <button onclick="location.href='map.html'" class="btn btn-primary btn-lg btn-block">                
-                            확인
-                        </button>
-                    </div>
-            </div>
-        </div>
-    </section>
-
         <!-- Portfolio Grid Section -->
         <section id="portfolio">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2>Tayoing 경로</h2>
+                        <h2>Tayoing 소개</h2>
                         <hr class="star-primary">
+                        <span class="skills">세종시의 중앙행정기관의 순환버스로 빠르고, 안전하게 이동하세요~</span>
                     </div>
                 </div>
                 <div style="text-align : center;">
-                <img src="img/경로.png" width="700" height="500">
+                    <h2>Tayoing 경로</h2>
+                    <hr class="star-primary">
+                    <img src="img/경로.png" width="700" height="500">
                 </div>
             </div>
         </section>
@@ -151,7 +111,7 @@
             <div class="row">
                 <div class="col-lg text-center">
                     <p> 
-                        자율주행차 시범운행기구로 지정된 세종시에서 자율주행 순환 셔틀버스는 국토교통부 - 정부세종컨벤션센터 - 국립세종도서관 - 산업통상자원부를 순환하는 수요응답형 자율주행 셔틀버스로, 간선 급행 교통체계(BRT)와 연계해 정부세종청사, 국립세종도서관까지의 교통수요를 담당하는 라스트마일(최종 목적지까지 가는 마지막 구간) 서비스를 제공하게 된다. 이에 자율주행차량의 승객을 안전하게 목적지까지 운송해야 하므로 사고위험지역을 회피하여 운행될 필요성이 제기되었다. 본 분석모델 Tayoing은 강화학습기반의 사고위험지역을 회피하는 수요응답형 자율주행차량 경로 최적화를 위한 모델이다.
+                        자율주행차 시범운행기구로 지정된 세종시에서 자율주행 순환 셔틀버스는 국민권익위원회 - 세종시청자미디어센터 - 국토교통부 - 정부세종컨벤션센터 - 국립세종도서관 - 산업통상자원부를 순환하는 수요응답형 자율주행 셔틀버스로, 국립세종도서관까지의 교통수요를 담당하는 라스트마일(최종 목적지까지 가는 마지막 구간) 서비스를 제공하게 된다. 이에 자율주행차량의 승객을 안전하게 목적지까지 운송해야 하므로 안전하고 최적의 경로로 운행될 필요성이 제기되었다. 본 분석모델 Tayoing은 강화학습기반의 수요응답형 자율주행차량 경로 최적화를 위한 모델이다.
                     </p>
                     <p>
                         - 수요응답형 자율주행 셔틀버스 Tayoing은 최적의 경로로 출발지로부터 목적지까지 운행하여 승객의 니즈를 충족시키고자 한다. 
